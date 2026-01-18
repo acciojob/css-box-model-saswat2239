@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CSS Box Model</title>
+    <style>
+        .box {
+            /* The width of the box must be exactly 300px */
+            width: 300px;
+            
+            /* The background color must be light blue */
+            background-color: lightblue;
+            
+            /* The box must have a 15px solid blue border */
+            border: 15px solid blue;
+            
+            /* The padding inside the box must be 50px */
+            padding: 50px;
+            
+            /* The margin around the box must be 20px */
+            margin: 20px;
+            
+            /* Ensures the text stays within the box limits */
+            word-wrap: break-word;
+        }
+    </style>
 </head>
 <body>
 
-    <div style="
-        width: 300px;
-        background-color: lightblue;
-        border: 15px solid blue;
-        padding: 50px;
-        margin: 20px;
-    ">
+    <div class="box">
         This is a demo of box model, try to replicate this box model in Html & Css and pass all the test cases.
     </div>
 
