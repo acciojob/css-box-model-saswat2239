@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model Demo</title>
     <style>
         .box {
             /* The width of the box must be exactly 300px */
             width: 300px;
-            
+
             /* The background color must be light blue */
             background-color: lightblue;
-            
+
             /* The box must have a 15px solid blue border */
             border: 15px solid blue;
-            
+
             /* The padding inside the box must be 50px */
             padding: 50px;
-            
+
             /* The margin around the box must be 20px */
             margin: 20px;
-            
-            /* Ensures the text stays within the box limits */
-            word-wrap: break-word;
+
+            /* Visual refinement to match the image font style */
+            font-family: sans-serif;
+            color: black;
+            line-height: 1.4;
         }
     </style>
 </head>
 <body>
 
     <div class="box">
-        This is a demo of box model, try to replicate this box model in Html & Css and pass all the test cases.
+        This is a demo of box model try to replicate this box model in Html and Css and try to pass all the test cases.
     </div>
 
 </body>
